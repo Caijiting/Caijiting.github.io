@@ -14,7 +14,6 @@ I am very fortunate to be advised by [Prof. Yong-Lu Li](https://dirtyharrylyl.gi
 You can find my CV here: [Jiting Cai's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 [Email](caijiting@sjtu.edu.cn) / [Github](https://github.com/Caijiting) / [Wechat](../images/wechat.jpg) 
-————————————————
 
 A data-driven personal website
 ======
