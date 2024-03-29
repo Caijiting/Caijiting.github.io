@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student from [School of Electronic Information and Electrical Engineering](https://www.seiee.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My research interest includes Vomputer Vision, Computer Graphics, Machine Learning, and Robotics.
+I'm a third year undergraduate student from [School of Electronic Information and Electrical Engineering](https://www.seiee.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My research interest includes Computer Vision, Computer Graphics, Machine Learning, and Robotics.
 
 I am very fortunate to be advised by [Prof. Yong-Lu Li](https://dirtyharrylyl.github.io/) of MVIG Lab, RHOS Group from [School of Electronic Information and Electrical Engineering](https://www.seiee.sjtu.edu.cn/), Shanghai Jiao Tong University. I was also advised by [Prof. Cewu Lu](https://mvig.sjtu.edu.cn/) from [School of Electronic Information and Electrical Engineering](https://www.seiee.sjtu.edu.cn/), Shanghai Jiao Tong University.
 
@@ -26,6 +26,7 @@ News
 Puclication
 ======
 Take a Step Back: Rethinking the Two Stages in Visual Reasoning
+
 Jiting Cai*, Mingyu Zhang*, Yue Xu, Mingyu Liu, Cewu Lu, Yong-Lu Li
 
 
