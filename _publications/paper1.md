@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/paper1
 date: 2024-07-01
-venue: 'ECCV 2024'
+venue: 'ECCV'
 paperurl: 'https://arxiv.org/pdf/2407.19666v1'
 ---
 
