@@ -8,4 +8,4 @@ venue: 'ECCV'
 paperurl: 'https://arxiv.org/pdf/2407.19666v1'
 ---
 
-Mingyu Zhang * , **Jiting Cai * **, Mingyu Liu, Yue Xu, Cewu Lu, Yong-Lu Li 
+Mingyu Zhang* , **Jiting Cai***, Mingyu Liu, Yue Xu, Cewu Lu, Yong-Lu Li 
