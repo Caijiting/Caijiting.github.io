@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jiting Cai / Academic Page"
+title                    : "Jiting Cai's Home Page"
 title_separator          : "-"
 name                     : &name "Jiting Cai"
 description              : &description "Undergrad student at SJTU"
