@@ -16,7 +16,7 @@ News
 ======
 [1] Applying for PhD at Fall 2025
 
-[2] A paper accepted by NeurIPS 2025
+[2] A paper accepted by NeurIPS 2024
 
-[3] A paper accepted by ECCV 2025
+[3] A paper accepted by ECCV 2024
 
