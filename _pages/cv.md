@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my up-to-date camera ready CV [here]()
+You can find my up-to-date camera ready CV [here](https://caijiting.github.io/files/cjt_CV.pdf)
