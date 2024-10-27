@@ -12,7 +12,7 @@ title                    : "Jiting Cai / Academic Page"
 title_separator          : "-"
 name                     : &name "Jiting Cai"
 description              : &description "Undergrad student at SJTU"
-url                      : https://Caijiting.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://caijiting.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
