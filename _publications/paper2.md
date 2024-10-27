@@ -1,10 +1,10 @@
 ---
-title: "Take A Step Back: Rethinking the Two Stages in Visual Reasoning"
+title: "Architect: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting"
 collection: publications
 category: conferences
-permalink: /publication/paper1
-date: 2024-07-01
-venue: 'ECCV 2024'
+permalink: /publication/paper2
+date: 2024-09-01
+venue: 'NeurIPS 2024'
 paperurl: 'https://arxiv.org/pdf/2407.19666v1'
 ---
 
