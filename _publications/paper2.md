@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/paper2
 date: 2024-09-01
-venue: 'NeurIPS 2024'
+venue: 'NeurIPS'
 paperurl: 'https://arxiv.org/pdf/2407.19666v1'
 ---
 
