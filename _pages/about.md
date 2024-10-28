@@ -14,9 +14,9 @@ I am also very fortune to be an research intern in [MIT-IBM Watson AI Lab](https
 
 News
 ======
-* Applying for PhD at Fall 2025
+* **[2024-11]** Applying for PhD at Fall 2025
 
-* A paper accepted by NeurIPS 2024
+* **[2024-9]** A paper accepted by **NeurIPS 2024**
 
-* A paper accepted by ECCV 2024
+* **[2024-7]** A paper accepted by **ECCV 2024**
 
