@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/paper2
 date: 2024-09-01
 venue: 'NeurIPS'
-paperurl: 'https://arxiv.org/pdf/2407.19666v1'
+paperurl: 'https://arxiv.org/pdf/2411.09823'
 ---
 
 Yian Wang, Xiaowen Qiu, Jiageng Liu, Zhehuan Chen, **Jiting Cai**, Yufei Wang, Tsun-Hsuan Wang, Zhou Xian, Chuang Gan
