@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /legacy-about/
 title: "About me"
 author_profile: true
 redirect_from: 
@@ -19,4 +19,3 @@ News
 * **[2024-9]** A paper accepted by **NeurIPS 2024**
 
 * **[2024-7]** A paper accepted by **ECCV 2024**
-
