@@ -6,7 +6,7 @@
     <title>Jiting Cai | 蔡霁廷</title>
     <meta name="author" content="Jiting Cai">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=food-gallery">
   </head>
 
   <body>
@@ -177,11 +177,12 @@
           <li><strong>Music:</strong> I enjoy playing the flute. 🎵🎶</li>
           <li><strong>Entertainment:</strong> escape rooms. 🧩🔐</li>
           <li><strong>Games:</strong> I enjoy playing League of Legends and Red Alert. 🎮🕹️</li>
-          <li><strong>Food:</strong> I love exploring different cuisines. Interesting fact: my hometown, Guangzhou (广州), is famous for its rich food culture. I am especially fond of Chaoshan (潮汕) beef hot pot, where the beef is really, really fresh. 🍲🥩🥢</li>
+          <li><strong>Food:</strong> I love exploring different cuisines. Interesting fact: my hometown, Guangzhou (广州), is famous for its rich food culture. I especially love Chaoshan (潮汕) beef hot pot. 🍲🥩🥢</li>
         </ul>
 
-        <div class="food-gallery" aria-label="Food photography">
-          <h3>Food adventures 🍽️</h3>
+        <details class="food-gallery">
+          <summary>Food adventures 🍽️</summary>
+          <div class="food-grid">
           <figure class="food-card">
             <img src="images/food/baoyumenji.jpg" alt="Abalone-braised chicken">
             <figcaption><strong>Abalone-braised chicken (鲍鱼焖鸡)</strong><br>A Guangzhou specialty.</figcaption>
@@ -210,7 +211,49 @@
             <img src="images/food/dazhaxie.jpg" alt="Steamed hairy crab">
             <figcaption><strong>Steamed hairy crab (大闸蟹)</strong></figcaption>
           </figure>
-        </div>
+          <figure class="food-card">
+            <img src="images/food/pusadee-garden.jpg" alt="Food at Pusadee Garden">
+            <figcaption><strong>Pusadee Garden</strong><br>Thai cuisine in Pittsburgh.</figcaption>
+          </figure>
+          <div class="food-group">
+            <h4>Chaoshan beef hot pot (潮汕牛肉火锅)</h4>
+            <figure class="food-card">
+              <img src="images/food/beefhotpot-1.jpg" alt="Chaoshan beef hot pot">
+              <figcaption><strong>Snowflake beef (雪花肉)</strong><br>Beautifully marbled and melt-in-your-mouth.</figcaption>
+            </figure>
+            <figure class="food-card">
+              <img src="images/food/beefhotpot-2.jpg" alt="Chaoshan beef hot pot">
+              <figcaption><strong>Wuhua zhi (五花趾)</strong><br>Crisp and tender.</figcaption>
+            </figure>
+            <figure class="food-card">
+              <img src="images/food/beefhotpot-3.jpg" alt="Chaoshan beef hot pot">
+              <figcaption>A shared hot pot meal.</figcaption>
+            </figure>
+          </div>
+          <div class="food-group">
+            <h4>Sushi</h4>
+            <figure class="food-card">
+              <img src="images/food/sushi-1.jpg" alt="Sushi">
+              <figcaption>Sushi selection.</figcaption>
+            </figure>
+            <figure class="food-card">
+              <img src="images/food/sushi-2.jpg" alt="Sushi">
+              <figcaption>Sushi selection.</figcaption>
+            </figure>
+          </div>
+          <div class="food-group">
+            <h4>German cuisine</h4>
+            <figure class="food-card">
+              <img src="images/food/german-pork-shank.jpg" alt="German pork knuckle">
+              <figcaption>German pork knuckle.</figcaption>
+            </figure>
+            <figure class="food-card">
+              <img src="images/food/german-sausages.jpg" alt="German sausages">
+              <figcaption>German sausages.</figcaption>
+            </figure>
+          </div>
+          </div>
+        </details>
       </section>
 
       <div class="visitor-map" aria-label="Global visitor map">

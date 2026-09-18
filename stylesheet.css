@@ -258,19 +258,61 @@ section h2 {
   margin: 7px 0;
 }
 
-.food-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px 12px;
-  margin: 10px 16px 8px;
+details.food-gallery {
+  margin: 24px 16px 8px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 14px;
 }
 
-.food-gallery h3 {
-  grid-column: 1 / -1;
-  margin: 4px 0 -2px;
-  color: #555;
+details.food-gallery > summary {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  color: #444;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 700;
+  list-style: none;
+}
+
+details.food-gallery > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.food-gallery > summary::before {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid #1772d0;
+  content: "";
+  transition: transform .2s ease;
+}
+
+details.food-gallery[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px 10px;
+  margin-top: 16px;
+}
+
+.food-group {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.food-group h4 {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  color: #555;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .food-card {
@@ -287,15 +329,16 @@ section h2 {
 }
 
 .food-card figcaption {
-  margin-top: 6px;
+  margin-top: 5px;
   color: #666;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.35;
+  text-align: center;
 }
 
 .food-card figcaption strong {
   color: #444;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .visitor-map {
@@ -349,15 +392,16 @@ footer p {
     font-size: 12px;
   }
 
-  .food-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  details.food-gallery {
     margin-right: 8px;
     margin-left: 8px;
   }
-}
 
-@media (max-width: 450px) {
-  .food-gallery {
-    grid-template-columns: 1fr;
+  .food-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .food-group {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
