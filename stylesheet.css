@@ -258,6 +258,46 @@ section h2 {
   margin: 7px 0;
 }
 
+.food-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 12px;
+  margin: 10px 16px 8px;
+}
+
+.food-gallery h3 {
+  grid-column: 1 / -1;
+  margin: 4px 0 -2px;
+  color: #555;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.food-card {
+  min-width: 0;
+  margin: 0;
+}
+
+.food-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.food-card figcaption {
+  margin-top: 6px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.food-card figcaption strong {
+  color: #444;
+  font-size: 12px;
+}
+
 .visitor-map {
   min-height: 90px;
   padding: 24px 16px 0;
@@ -307,5 +347,17 @@ footer p {
 
   .paper-summary {
     font-size: 12px;
+  }
+
+  .food-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .food-gallery {
+    grid-template-columns: 1fr;
   }
 }
