@@ -328,6 +328,10 @@ details.food-gallery[open] > summary::before {
   object-fit: cover;
 }
 
+.food-card img.food-image-flip {
+  transform: rotate(180deg);
+}
+
 .food-card figcaption {
   margin-top: 5px;
   color: #666;
