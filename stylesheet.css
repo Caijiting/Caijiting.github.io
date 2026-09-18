@@ -181,6 +181,14 @@ body {
   border-radius: 50%;
 }
 
+.intro-quote {
+  margin: 12px 0 0;
+  color: #555;
+  font-family: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+}
+
 .links,
 .publication-note {
   text-align: center;
