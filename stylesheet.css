@@ -173,6 +173,7 @@ body {
   width: 37%;
   max-width: 37%;
   vertical-align: middle;
+  text-align: center;
 }
 
 .intro-photo img {
@@ -182,11 +183,11 @@ body {
 }
 
 .intro-quote {
-  margin: 12px 0 0;
+  margin: 6px 0 0;
   color: #555;
-  font-family: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
-  font-size: 20px;
-  letter-spacing: 0.12em;
+  font-family: 'STKaiti', 'KaiTi', '楷体', 'Georgia', serif;
+  font-size: 16px;
+  letter-spacing: 1.5px;
 }
 
 .links,
