@@ -195,6 +195,10 @@ body {
   letter-spacing: 0.5px;
 }
 
+.intro-motto {
+  font-weight: 700;
+}
+
 .links,
 .publication-note {
   text-align: center;
